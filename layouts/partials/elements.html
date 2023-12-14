@@ -1,9 +1,41 @@
 				<!-- Additional Elements -->
-                <section class="wrapper style1 align-center color5">
+                <section class="wrapper style1 align-center color0">
                     <div class="inner">
-                        <h2>Additional Elements</h2>
-                        <p>Finally, here are some additional elements you <em>might</em> find useful (and yup, they look fine with any <span class="demo-controls">appearance</span>).</p>
-                        <div class="index align-left">
+                        <div class="index align-left"></div>
+                            <section>
+                                <header>
+                                    <h3 id="first">About</h3>
+                                </header>
+                                <div class="content">
+
+                                    <p>
+                                        {{ with .Site.Params.social.github }}<a target="_blank" href="{{.}}" class="icon brands style2 fa-github"><span class="label">Github</span></a>{{end}}
+                                        {{ with .Site.Params.social.linkedin }}<a target="_blank" href="{{.}}" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a>{{end}}
+                                    </p>
+                                    <p>
+                                        I am 30-something working with FPGA and embedded software in Vienna.
+                                        I am originally from Sweden, but have lived in Austria since 2023.
+                                        I graduated from Linköping University in 2014 with a Master of Science degree in Applied Physics.
+                                        My professional life has been spent mostly with FPGA development and embedded software.
+                                    </p>
+                                    <p>
+                                        Since 2017 I have been running my own company providing FPGA design services.
+                                    </p>
+                                    <p>
+                                        Apart from professional work I am an active contributor in the open source FPGA community.
+                                        I am currently the author and maintainer of three FPGA-related open-source projects.
+                                        Please see the GitHub link above or my resume below for more details.
+                                    </p>
+                                    <p>
+                                        In my free time I enjoy reading, spending time in nature and exercising.
+                                        The exercise of choice depends on the season, but more often than not it is either strength training, ice skating or mountainbiking.
+                                        Living in Vienna, the world's capitol for classical music, I am of course an avid concert goer.
+                                    </p>
+
+                                </div>
+                            </section>
+
+                            <span class="image fit"><img src="images/skridskor.png" alt="" /></span>
 
                             <!-- Text -->
                                 <section>
