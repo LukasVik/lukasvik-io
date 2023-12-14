@@ -1,504 +1,155 @@
 				<!-- Additional Elements -->
                 <section class="wrapper style1 align-center color0">
                     <div class="inner">
-                        <div class="index align-left"></div>
+                        <div class="index align-left">
+
                             <section>
                                 <header>
-                                    <h3 id="first">About</h3>
+                                    <h3 id="first">About Lukas Vik</h3>
                                 </header>
                                 <div class="content">
 
-                                    <p>
-                                        {{ with .Site.Params.social.github }}<a target="_blank" href="{{.}}" class="icon brands style2 fa-github"><span class="label">Github</span></a>{{end}}
-                                        {{ with .Site.Params.social.linkedin }}<a target="_blank" href="{{.}}" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a>{{end}}
-                                    </p>
                                     <p>
                                         I am 30-something working with FPGA and embedded software in Vienna.
                                         I am originally from Sweden, but have lived in Austria since 2023.
                                         I graduated from Linköping University in 2014 with a Master of Science degree in Applied Physics.
                                         My professional life has been spent mostly with FPGA development and embedded software.
                                     </p>
+
                                     <p>
                                         Since 2017 I have been running my own company providing FPGA design services.
                                     </p>
+
                                     <p>
                                         Apart from professional work I am an active contributor in the open source FPGA community.
                                         I am currently the author and maintainer of three FPGA-related open-source projects.
-                                        Please see the GitHub link above or my resume below for more details.
+                                        Please see the GitHub link or my resume below for more details.
                                     </p>
+
                                     <p>
                                         In my free time I enjoy reading, spending time in nature and exercising.
                                         The exercise of choice depends on the season, but more often than not it is either strength training, ice skating or mountainbiking.
-                                        Living in Vienna, the world's capitol for classical music, I am of course an avid concert goer.
+                                        Living in Vienna, the world's capital for classical music, I am of course an avid concert goer.
                                     </p>
+
+                                    <p>
+                                        Social media links:
+                                        {{ with .Site.Params.social.github }}<a target="_blank" href="{{.}}" class="icon brands style2 fa-github"><span class="label">Github</span></a>{{end}}
+                                        {{ with .Site.Params.social.linkedin }}<a target="_blank" href="{{.}}" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a>{{end}}
+                                    </p>
+
+                                    <span class="image fit"><img src="images/skridskor.png" alt="" /></span>
 
                                 </div>
                             </section>
 
-                            <span class="image fit"><img src="images/skridskor.png" alt="" /></span>
+                            <section>
+                                <header>
+                                    <h3>Open-source projects</h3>
+                                </header>
 
-                            <!-- Text -->
-                                <section>
+                                <div class="content">
+                                    <h3>tsfpga</h3>
+                                    <p>
+                                        I am the author and maintainer of tsfpga, a flexible and scalable development platform for modern FPGA projects.
+                                        See the website to learn more: <a href="https://tsfpga.com">https://tsfpga.com</a>
+                                    </p>
+
+                                    <h3>hdl-modules</h3>
+                                    <p>
+                                        I am the author and maintainer of hdl-modules, a collection of reusable, high-quality, peer-reviewed VHDL building blocks.
+                                        See the website to learn more: <a href="https://hdl-modules.com/">https://hdl-modules.com/</a>
+                                    </p>
+
+                                    <h3>hdl-registers</h3>
+                                    <p>
+                                        I am the author and maintainer of hdl-registers, an HDL register code generator fast enough to run in real time
+                                        See the website to learn more: <a href="https://hdl-registers.com/">https://hdl-registers.com/</a>
+                                    </p>
+                                </div>
+                            </section>
+
+
+                            <section>
+                                <header>
+                                    <h3>Professional projects</h3>
+                                </header>
+
+                                <div class="content">
                                     <header>
-                                        <h3 id="first">Text</h3>
+                                        <h3>Design lead and main developer for an FPGA-based Hi-Fi audio product</h3>
+                                        <p>At Truestream, 2023</p>
                                     </header>
-                                    <div class="content">
+                                    <p>
+                                        I am the author and maintainer of tsfpga, a flexible and scalable development platform for modern FPGA projects.
+                                        See the website to learn more: <a href="https://tsfpga.com">https://tsfpga.com</a>
+                                    </p>
 
-                                        <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-                                        This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-                                        This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>.
-                                        Finally, this is a <a href="#">link</a>.</p>
-
-                                    </div>
-                                </section>
-
-                            <!-- Heading -->
-                                <section>
                                     <header>
-                                        <h3>Headings</h3>
+                                        <h3>FPGA and embedded software developer working on industrial 3D cameras</h3>
+                                        <p>At SICK, 2018&ndash;2019</p>
                                     </header>
-                                    <div class="content">
+                                    <p>
+                                        I am the author and maintainer of hdl-modules, a collection of reusable, high-quality, peer-reviewed VHDL building blocks.
+                                        See the website to learn more: <a href="https://hdl-modules.com/">https://hdl-modules.com/</a>
+                                    </p>
 
-                                        <h1>Heading Level 1</h1>
-                                        <h2>Heading Level 2</h2>
-                                        <h3>Heading Level 3</h3>
-                                        <h4>Heading Level 4</h4>
-                                        <h5>Heading Level 5</h5>
-                                        <h6>Heading Level 6</h6>
-
-                                        <hr />
-
-                                        <header>
-                                            <h1>Heading with a Subtitle</h1>
-                                            <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-                                        </header>
-                                        <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-
-                                        <hr />
-
-                                        <header>
-                                            <h2>Heading with a Subtitle</h2>
-                                            <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-                                        </header>
-                                        <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-
-                                        <hr />
-
-                                        <header>
-                                            <h3>Heading with a Subtitle</h3>
-                                            <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-                                        </header>
-                                        <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-
-                                    </div>
-                                </section>
-
-                            <!-- Unordered List -->
-                                <section>
                                     <header>
-                                        <h3>Unordered List</h3>
+                                        <h3>Embedded software developer working on next-generation torpedo</h3>
+                                        <p>At SAAB Dynamics, 2017</p>
                                     </header>
-                                    <div class="content">
+                                    <p>
+                                        I am the author and maintainer of hdl-modules, a collection of reusable, high-quality, peer-reviewed VHDL building blocks.
+                                        See the website to learn more: <a href="https://hdl-modules.com/">https://hdl-modules.com/</a>
+                                    </p>
 
-                                        <h4>Default</h4>
-                                        <ul>
-                                            <li>Lorem ipsum dolor sit amet</li>
-                                            <li>Interdum adipiscing gravida odio</li>
-                                            <li>Porttitor sem non integer</li>
-                                            <li>Non faucibus ornare mi ut ante</li>
-                                            <li>Sagittis adipiscing eleifend</li>
-                                            <li>Felis amet dolore viverra</li>
-                                        </ul>
-
-                                        <h4>Alternate</h4>
-                                        <ul class="alt">
-                                            <li>Lorem ipsum dolor sit amet</li>
-                                            <li>Interdum adipiscing gravida odio</li>
-                                            <li>Porttitor sem non integer</li>
-                                            <li>Non faucibus ornare mi ut ante</li>
-                                            <li>Sagittis adipiscing eleifend</li>
-                                            <li>Felis amet dolore viverra</li>
-                                        </ul>
-
-                                    </div>
-                                </section>
-
-                            <!-- Ordered List -->
-                                <section>
                                     <header>
-                                        <h3>Ordered List</h3>
+                                        <h3>FPGA developer enabling self-driving cars</h3>
+                                        <p>At Autoliv Electronics (now part of Qualcomm), 2014&ndash;2017</p>
                                     </header>
-                                    <div class="content">
+                                    <p>
+                                        I am the author and maintainer of hdl-modules, a collection of reusable, high-quality, peer-reviewed VHDL building blocks.
+                                        See the website to learn more: <a href="https://hdl-modules.com/">https://hdl-modules.com/</a>
+                                    </p>
+                                </div>
+                            </section>
 
-                                        <ol>
-                                            <li>Lorem ipsum dolor sit amet</li>
-                                            <li>Interdum adipiscing gravida odio</li>
-                                            <li>Porttitor sem non integer</li>
-                                            <li>Non faucibus ornare mi ut ante</li>
-                                            <li>Sagittis adipiscing eleifend</li>
-                                            <li>Felis amet dolore viverra</li>
-                                        </ol>
+                            <section>
+                                <header>
+                                    <h3>Get in contact</h3>
+                                </header>
+                                <div class="content">
 
-                                    </div>
-                                </section>
-
-                            <!-- Definition List -->
-                                <section>
-                                    <header>
-                                        <h3>Definition List</h3>
-                                    </header>
-                                    <div class="content">
-
-                                        <dl>
-                                            <dt>Interdum adipiscing odio</dt>
-                                            <dd>
-                                                <p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent fringilla quis tincidunt felis sagittis eget tempus euismod. Ante ipsum primis vestibulum.</p>
-                                            </dd>
-                                            <dt>Non faucibus ornare mi ut ante</dt>
-                                            <dd>
-                                                <p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent fringilla quis tincidunt felis sagittis eget tempus euismod. Ante ipsum primis vestibulum.</p>
-                                            </dd>
-                                            <dt>Felis amet dolore viverra</dt>
-                                            <dd>
-                                                <p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent fringilla quis tincidunt felis sagittis eget tempus euismod. Ante ipsum primis vestibulum.</p>
-                                            </dd>
-                                        </dl>
-
-                                    </div>
-                                </section>
-
-                            <!-- Blockquote -->
-                                <section>
-                                    <header>
-                                        <h3>Blockquote</h3>
-                                    </header>
-                                    <div class="content">
-
-                                        <blockquote>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent fringilla quis tincidunt felis sagittis eget tempus euismod. Ante ipsum primis vestibulum.</blockquote>
-
-                                    </div>
-                                </section>
-
-                            <!-- Code -->
-                                <section>
-                                    <header>
-                                        <h3>Code</h3>
-                                    </header>
-                                    <div class="content">
-
-                                        <pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';
-</code></pre>
-
-                                    </div>
-                                </section>
-
-                            <!-- Icons -->
-                                <section>
-                                    <header>
-                                        <h3>Icons</h3>
-                                    </header>
-                                    <div class="content">
-
-                                        <h4>Style #1</h4>
-                                        <ul class="icons">
-                                            <li><a href="#" class="icon brands style1 fa-twitter"><span class="label">Twitter</span></a></li>
-                                            <li><a href="#" class="icon brands style1 fa-facebook-f"><span class="label">Facebook</span></a></li>
-                                            <li><a href="#" class="icon brands style1 fa-instagram"><span class="label">Instagram</span></a></li>
-                                            <li><a href="#" class="icon brands style1 fa-github"><span class="label">Github</span></a></li>
-                                            <li><a href="#" class="icon brands style1 fa-dribbble"><span class="label">Dribbble</span></a></li>
-                                        </ul>
-
-                                        <h4>Style #2</h4>
-                                        <ul class="icons">
-                                            <li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-                                            <li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-                                            <li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-                                            <li><a href="#" class="icon brands style2 fa-github"><span class="label">Github</span></a></li>
-                                            <li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
-                                        </ul>
-
-                                    </div>
-                                </section>
-
-                            <!-- Buttons -->
-                                <section>
-                                    <header>
-                                        <h3>Buttons</h3>
-                                    </header>
-                                    <div class="content">
-
-                                        <ul class="actions">
-                                            <li><a href="#" class="button primary">Primary</a></li>
-                                            <li><a href="#" class="button">Default</a></li>
-                                        </ul>
-                                        <ul class="actions">
-                                            <li><a href="#" class="button primary large">Large</a></li>
-                                            <li><a href="#" class="button">Default</a></li>
-                                            <li><a href="#" class="button small">Small</a></li>
-                                        </ul>
-                                        <ul class="actions fit">
-                                            <li><a href="#" class="button primary fit">Fit</a></li>
-                                            <li><a href="#" class="button fit">Fit</a></li>
-                                            <li><a href="#" class="button primary fit">Fit</a></li>
-                                            <li><a href="#" class="button fit">Fit</a></li>
-                                        </ul>
-                                        <ul class="actions fit small">
-                                            <li><a href="#" class="button primary fit small">Fit + Small</a></li>
-                                            <li><a href="#" class="button fit small">Fit + Small</a></li>
-                                            <li><a href="#" class="button primary fit small">Fit + Small</a></li>
-                                            <li><a href="#" class="button fit small">Fit + Small</a></li>
-                                        </ul>
-                                        <ul class="actions">
-                                            <li><a href="#" class="button primary icon solid fa-search">Icon</a></li>
-                                            <li><a href="#" class="button icon solid fa-download">Icon</a></li>
-                                        </ul>
-                                        <ul class="actions">
-                                            <li><span class="button primary disabled">Primary</span></li>
-                                            <li><span class="button disabled">Default</span></li>
-                                        </ul>
-
-                                    </div>
-                                </section>
-
-                            <!-- Actions -->
-                                <section>
-                                    <header>
-                                        <h3>Actions</h3>
-                                    </header>
-                                    <div class="content">
-
-                                        <h4>Default</h4>
-                                        <ul class="actions">
-                                            <li><a href="#" class="button primary">Default</a></li>
-                                            <li><a href="#" class="button">Default</a></li>
-                                        </ul>
-
-                                        <h4>Small</h4>
-                                        <ul class="actions small">
-                                            <li><a href="#" class="button primary small">Small</a></li>
-                                            <li><a href="#" class="button small">Small</a></li>
-                                        </ul>
-
-                                        <h4>Stacked</h4>
-                                        <ul class="actions stacked">
-                                            <li><a href="#" class="button primary">Default</a></li>
-                                            <li><a href="#" class="button">Default</a></li>
-                                        </ul>
-
-                                        <h4>Stacked + Fit</h4>
-                                        <ul class="actions stacked">
-                                            <li><a href="#" class="button primary fit">Default</a></li>
-                                            <li><a href="#" class="button fit">Default</a></li>
-                                        </ul>
-
-                                    </div>
-                                </section>
-
-                            <!-- Form -->
-                                <section>
-                                    <header>
-                                        <h3>Form</h3>
-                                    </header>
-                                    <div class="content">
-
-                                        <form method="post" action="#">
-                                            <div class="fields">
-                                                <div class="field half">
-                                                    <label for="name">Name</label>
-                                                    <input type="text" name="name" id="name" value="" />
-                                                </div>
-                                                <div class="field half">
-                                                    <label for="email">Email</label>
-                                                    <input type="email" name="email" id="email" value="" />
-                                                </div>
-                                                <div class="field">
-                                                    <label for="department">Department</label>
-                                                    <select name="department" id="department">
-                                                        <option value="">- Category -</option>
-                                                        <option value="1">Manufacturing</option>
-                                                        <option value="2">Shipping</option>
-                                                        <option value="3">Administration</option>
-                                                        <option value="4">Human Resources</option>
-                                                    </select>
-                                                </div>
-                                                <div class="field third">
-                                                    <input type="radio" id="priority-low" name="priority" checked />
-                                                    <label for="priority-low">Low Priority</label>
-                                                </div>
-                                                <div class="field third">
-                                                    <input type="radio" id="priority-normal" name="priority" />
-                                                    <label for="priority-normal">Normal Priority</label>
-                                                </div>
-                                                <div class="field third">
-                                                    <input type="radio" id="priority-high" name="priority" />
-                                                    <label for="priority-high">High Priority</label>
-                                                </div>
-                                                <div class="field">
-                                                    <label for="message">Message</label>
-                                                    <textarea name="message" id="message" rows="6"></textarea>
-                                                </div>
-                                                <div class="field half">
-                                                    <input type="checkbox" id="copy" name="copy" />
-                                                    <label for="copy">Email me a copy of this message</label>
-                                                </div>
-                                                <div class="field half">
-                                                    <input type="checkbox" id="human" name="human" checked />
-                                                    <label for="human">I am a human and not a robot</label>
-                                                </div>
+                                    <form method="post" action="#">
+                                        <div class="fields">
+                                            <div class="field half">
+                                                <label for="name">Name</label>
+                                                <input type="text" name="name" id="name" value="" />
                                             </div>
-                                            <ul class="actions">
-                                                <li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
-                                            </ul>
-                                        </form>
-
-                                    </div>
-                                </section>
-
-                            <!-- Table -->
-                                <section>
-                                    <header>
-                                        <h3>Table</h3>
-                                    </header>
-                                    <div class="content">
-
-                                        <h4>Default</h4>
-                                        <div class="table-wrapper">
-                                            <table>
-                                                <thead>
-                                                    <tr>
-                                                        <th>Name</th>
-                                                        <th>Description</th>
-                                                        <th>Price</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>Item 1</td>
-                                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                                        <td>29.99</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Item 2</td>
-                                                        <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                                        <td>19.99</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Item 3</td>
-                                                        <td> Morbi faucibus arcu accumsan lorem.</td>
-                                                        <td>29.99</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Item 4</td>
-                                                        <td>Vitae integer tempus condimentum.</td>
-                                                        <td>19.99</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Item 5</td>
-                                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                                        <td>29.99</td>
-                                                    </tr>
-                                                </tbody>
-                                                <tfoot>
-                                                    <tr>
-                                                        <td colspan="2"></td>
-                                                        <td>100.00</td>
-                                                    </tr>
-                                                </tfoot>
-                                            </table>
+                                            <div class="field half">
+                                                <label for="email">Email</label>
+                                                <input type="email" name="email" id="email" value="" />
+                                            </div>
+                                            <div class="field">
+                                                <label for="message">Message</label>
+                                                <textarea name="message" id="message" rows="6"></textarea>
+                                            </div>
+                                            <div class="field half">
+                                                <input type="checkbox" id="copy" name="copy" />
+                                                <label for="copy">Email me a copy of this message</label>
+                                            </div>
+                                            <div class="field half">
+                                                <input type="checkbox" id="human" name="human" />
+                                                <label for="human">I am a human and not a robot</label>
+                                            </div>
                                         </div>
+                                        <ul class="actions">
+                                            <li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+                                        </ul>
+                                    </form>
 
-                                        <h4>Alternate</h4>
-                                        <div class="table-wrapper">
-                                            <table class="alt">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Name</th>
-                                                        <th>Description</th>
-                                                        <th>Price</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>Item 1</td>
-                                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                                        <td>29.99</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Item 2</td>
-                                                        <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                                        <td>19.99</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Item 3</td>
-                                                        <td> Morbi faucibus arcu accumsan lorem.</td>
-                                                        <td>29.99</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Item 4</td>
-                                                        <td>Vitae integer tempus condimentum.</td>
-                                                        <td>19.99</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Item 5</td>
-                                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                                        <td>29.99</td>
-                                                    </tr>
-                                                </tbody>
-                                                <tfoot>
-                                                    <tr>
-                                                        <td colspan="2"></td>
-                                                        <td>100.00</td>
-                                                    </tr>
-                                                </tfoot>
-                                            </table>
-                                        </div>
-
-                                    </div>
-                                </section>
-
-                            <!-- Images -->
-                                <section>
-                                    <header>
-                                        <h3>Images</h3>
-                                    </header>
-                                    <div class="content">
-
-                                        <h4>Fit</h4>
-                                        <span class="image fit"><img src="images/banner.jpg" alt="" /></span>
-
-                                        <h4>Left</h4>
-                                        <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor sit amet dolor consequat.</p>
-
-                                        <h4>Right</h4>
-                                        <p><span class="image right"><img src="images/pic02.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor sit amet dolor consequat.</p>
-
-                                    </div>
-                                </section>
-
-                            <!-- Box -->
-                                <section>
-                                    <header>
-                                        <h3>Box</h3>
-                                    </header>
-                                    <div class="content">
-
-                                        <div class="box">
-                                            <p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum dolor sit amet nullam.</p>
-                                        </div>
-
-                                    </div>
-                                </section>
-
+                                </div>
+                            </section>
                         </div>
-
-
                     </div>
                 </section>
