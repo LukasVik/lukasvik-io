@@ -1,12 +1,13 @@
 ####################### Banner #########################
-style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
-title : "Hugo Story"
-subtitle: |
-  Hugo Story released for free under the <a target="_blank" href="https://creativecommons.org/licenses/by/3.0/">Creative Commons</a>.
+style: "style1 orient-right content-align-left image-position-center fullscreen color5"
+title : "Hello, I'm Lukas Vik"
+#subtitle: |
+#  Hugo Story released for free under the <a target="_blank" href="https://creativecommons.org/licenses/by/3.0/">Creative Commons</a>.
 content : |
-  This is a <strong>Banner</strong> element, and it's generally used as an introduction or opening statement. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-banner">details</a>).
+  I am an FPGA developer based in Vienna, Austria. I am passionate about FPGA development and I am always looking for new challenges. I am currently working on a project that will be released soon. Stay tuned!
+#  This is a <strong>Banner</strong> element, and it's generally used as an introduction or opening statement. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-banner">details</a>).
 button:
-  label : "Get Started"
+  label : "Read more"
   link : "#first"
-image : "images/banner.jpg"
+image : "images/IMG_4460.JPG"
 
