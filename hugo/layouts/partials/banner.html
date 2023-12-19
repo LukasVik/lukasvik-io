@@ -4,6 +4,10 @@
         {{ with .title }}<h1>{{ . }}</h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+        <p>
+            I am a passionate developer working with FPGA and embedded software in Vienna, Austria.
+            Please see my resume, or the LinkedIn and GitHub links, below for more details.
+        </p>
         {{ with .button }}<ul class="actions stacked">
             <li><a href="{{ .link }}" class="button primary large wide smooth-scroll-middle">{{ .label }}</a></li>
         </ul>{{ end }}

@@ -1,11 +1,8 @@
 ####################### Banner #########################
 style: "style1 orient-right content-align-left image-position-center fullscreen color0"
 title : "Hello, I'm Lukas Vik"
-#subtitle: |
+# subtitle: |
 #  Hugo Story released for free under the <a target="_blank" href="https://creativecommons.org/licenses/by/3.0/">Creative Commons</a>.
-content : |
-  I am an FPGA developer based in Vienna, Austria. I am passionate about FPGA development and I am always looking for new challenges. I am currently working on a project that will be released soon. Stay tuned!
-#  This is a <strong>Banner</strong> element, and it's generally used as an introduction or opening statement. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-banner">details</a>).
 button:
   label : "Read more"
   link : "#first"
