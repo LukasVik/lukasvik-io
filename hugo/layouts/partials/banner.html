@@ -1,18 +1,21 @@
 <!-- Banner -->
-<section class="banner {{ .style }}">
+<section class="banner style1 orient-right content-align-left image-position-center fullscreen color0">
     <div class="content">
-        {{ with .title }}<h1>{{ . }}</h1>{{ end }}
-        {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
-        {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+        <h1>Hello, I'm Lukas Vik</h1>
         <p>
             I am a passionate developer working with FPGA and embedded software in Vienna, Austria.
-            Please see my resume, or the LinkedIn and GitHub links, below for more details.
+            See my <a href="#about" class="smooth-scroll-middle">resume</a> below, or my
+            {{ with .Site.Params.social.linkedin }}<a target="_blank" href="{{.}}">Linkedin</a>{{end}}
+            and
+            {{ with .Site.Params.social.github }}<a target="_blank" href="{{.}}">GitHub</a>{{end}}
+            pages.
         </p>
-        {{ with .button }}<ul class="actions stacked">
-            <li><a href="{{ .link }}" class="button primary large wide smooth-scroll-middle">{{ .label }}</a></li>
-        </ul>{{ end }}
+        <ul class="actions stacked">
+            <li><a href="#about" class="button primary large wide smooth-scroll-middle">Read more</a></li>
+        </ul>
     </div>
-    {{ with .image }}<div class="image">
-        <img src="{{.}}" alt="Lukas Vik" />
-    </div>{{end}}
+
+    <div class="image">
+        <img src="images/boat.jpg" alt="Lukas Vik" />
+    </div>
 </section>

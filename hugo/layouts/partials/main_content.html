@@ -4,7 +4,7 @@
 
             <section>
                 <header>
-                    <h3 id="first">About</h3>
+                    <h3 id="about">About</h3>
                 </header>
                 <div class="content">
 
@@ -42,8 +42,8 @@
 
                     <p>
                         Social media links:
-                        {{ with .Site.Params.social.github }}<a target="_blank" href="{{.}}" class="icon brands style2 fa-github"><span class="label">Github</span></a>{{end}}
                         {{ with .Site.Params.social.linkedin }}<a target="_blank" href="{{.}}" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a>{{end}}
+                        {{ with .Site.Params.social.github }}<a target="_blank" href="{{.}}" class="icon brands style2 fa-github"><span class="label">Github</span></a>{{end}}
                     </p>
 
                     <span class="image fit"><img src="images/ice.png" alt="" /></span>
