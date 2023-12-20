@@ -21,7 +21,7 @@ test:
 
 pages:
   script:
-    - cd hugo && hugo
+    - cd hugo && hugo && mv public .. && cd ..
   artifacts:
     paths:
       - public
