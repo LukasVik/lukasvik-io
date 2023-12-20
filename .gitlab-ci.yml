@@ -24,7 +24,7 @@ pages:
     - cd hugo && hugo
   artifacts:
     paths:
-      - hugo/public
+      - public
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   environment: production
