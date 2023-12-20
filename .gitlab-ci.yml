@@ -8,7 +8,7 @@
 # All available Hugo versions are listed here:
 # https://gitlab.com/pages/hugo/container_registry
 default:
-  image: "${CI_TEMPLATE_REGISTRY_HOST}/pages/hugo:latest"
+  image: "${CI_TEMPLATE_REGISTRY_HOST}/pages/hugo/hugo_extended:latest"
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
