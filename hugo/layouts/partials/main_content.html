@@ -162,7 +162,13 @@
                     <h3 id="form">Get in contact</h3>
                 </header>
                 <div class="content">
-                    <form method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSd_FrUJCPvX14nZCDEjHyx6Qrv57FDDX59XgrllGRKdETBiqg/formResponse">
+                    <script type="text/javascript">
+                      var submitted=false;
+                    </script>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/thankyou';}">
+                    </iframe>
+
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSd_FrUJCPvX14nZCDEjHyx6Qrv57FDDX59XgrllGRKdETBiqg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
                         <div class="fields">
                             <div class="field half">
                                 <label for="name">Name</label>
