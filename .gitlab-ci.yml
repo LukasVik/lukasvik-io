@@ -21,7 +21,7 @@ test:
 
 pages:
   script:
-    - cd hugo && hugo && mv public .. && cd ..
+    - cd hugo && hugo --gc --minify --destination ../public
   artifacts:
     paths:
       - public
