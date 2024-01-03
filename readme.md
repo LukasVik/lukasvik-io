@@ -9,4 +9,4 @@ TODO
 * [ ] Decide if there should be any fade of banner.
 * [x] Set up CI hugo build
 * [x] Set up deploy to pages
-* [ ] Redirect DNS
+* [x] Redirect DNS
