@@ -10,3 +10,5 @@ TODO
 * [x] Set up CI hugo build
 * [x] Set up deploy to pages
 * [x] Redirect DNS
+* [ ] Proofread and review all content
+* [ ] Remove this TODO when everything is done
