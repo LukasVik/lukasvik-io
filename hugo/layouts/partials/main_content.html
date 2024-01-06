@@ -35,15 +35,23 @@
                     <p>
                         In my free time I enjoy reading, exercising and being in nature.
                         The exercise of choice depends on the season, but more often than not you
-                        will find me strength training, ice skating or mountainbiking.
+                        will find me strength training, ice skating or mountain biking.
                         Living in Vienna, the world's capital for classical music, I am of course
                         also an avid concertgoer.
                     </p>
 
                     <p>
                         Social media links:
-                        {{ with .Site.Params.social.linkedin }}<a target="_blank" href="{{.}}" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a>{{end}}
-                        {{ with .Site.Params.social.github }}<a target="_blank" href="{{.}}" class="icon brands style2 fa-github"><span class="label">Github</span></a>{{end}}
+                        {{ with .Site.Params.social.linkedin }}
+                          <a target="_blank" href="{{.}}" class="icon brands style2 fa-linkedin">
+                            <span class="label">LinkedIn</span>
+                          </a>
+                        {{end}}
+                        {{ with .Site.Params.social.github }}
+                          <a target="_blank" href="{{.}}" class="icon brands style2 fa-github">
+                            <span class="label">Github</span>
+                          </a>
+                        {{end}}
                     </p>
 
                     <span class="image fit"><img src="images/ice.webp" alt="" /></span>
@@ -91,67 +99,54 @@
 
                 <div class="content">
                     <header>
-                        <h3>Design lead and main developer for an FPGA-based Hi-Fi audio product</h3>
-                        <p>At Truestream, 2023</p>
+                        <h3>Co-founder, FPGA expert</h3>
+                        <p>At Truestream, 2019&ndash;2023</p>
                     </header>
                     <p>
-                        FPGA and embedded software development, with heavy basis in signal
-                        processing and digital filter design.
-                        Developed a PC GUI application for controlling the target device
-                        over Ethernet.
+                        An FPGA design startup I co-founded with some friends.
+                        I worked as an FPGA expert on some very advanced products with bleeding-edge
+                        high-speed design.
+                        Example projects from these years:
+
+                        <ul style="margin-top: -1em; margin-bottom: 1em;">
+                          <li>Design lead and main developer for an FPGA-based Hi-Fi audio product.</li>
+                          <li>FPGA project manager, design lead, developer for a video headend device.</li>
+                          <li>Lead FPGA developer for an FPGA-based ethernet switch</li>
+                        </ul>
+
+                        I also did a lot of embedded software and PC GUI development.
+                        And, of course, a lot of other things that come with running a startup:
+                        company management, accounting, sales, marketing, contracts, etc.
                     </p>
 
                     <header>
-                        <h3>FPGA project manager, design lead, developer for a video headend device</h3>
-                        <p>At Truestream, 2022</p>
-                    </header>
-                    <p>
-                        FPGA development consisting mostly of high-speed serial receiver and
-                        transmitter interface design.
-                        Managed a two-person FPGA team.
-                    </p>
-
-                    <header>
-                        <h3>Lead FPGA developer for an FPGA-based ethernet switch</h3>
-                        <p>At Truestream, 2020&ndash;2023</p>
-                    </header>
-                    <p>
-                        A very advanced product with bleeding-edge high-speed design and
-                        innovative features, mostly developed by me:
-                        Layer 4 filtering, traffic shaping, QoR queues,
-                        checksum offloading, 1 Gbps or 10 Gbps ports with a custom Ethernet format
-                        for backplane communication.
-                    </p>
-
-                    <header>
-                        <h3>FPGA and embedded software developer working on industrial 3D cameras</h3>
+                        <h3>FPGA and embedded software development for industrial 3D cameras</h3>
                         <p>At SICK, 2018&ndash;2019</p>
                     </header>
                     <p>
                         FPGA development focused on signal processing.
                         Also embedded software development, GUI development, etc.
+                        I worked here as a full-time contractor from my one-man consulting company.
                     </p>
 
                     <header>
-                        <h3>Embedded software developer working on next-generation torpedo</h3>
+                        <h3>Embedded software development for next-generation underwater torpedo</h3>
                         <p>At SAAB Dynamics, 2017&ndash;2018</p>
                     </header>
                     <p>
                         Low-level embedded software development for the torpedo homing system.
-                        Developed a PC GUI application for controlling the target device
-                        over Ethernet.
+                        I worked here as a full-time contractor from my one-man consulting company.
                     </p>
 
                     <header>
-                        <h3>FPGA developer enabling self-driving cars</h3>
+                        <h3>FPGA development for self-driving cars</h3>
                         <p>At Autoliv Electronics (now part of Qualcomm), 2014&ndash;2017</p>
                     </header>
                     <p>
                         My first job out of University.
                         I had a multitude of roles and was the lead developer towards the end.
                         I mainly developed VHDL cores for image processing, but also team lead,
-                        pre-studies, time/resource/power estimations, system test environment,
-                        CI, etc.
+                        pre-studies, CI, etc.
                     </p>
                 </div>
             </section>
