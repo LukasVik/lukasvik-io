@@ -70,7 +70,7 @@ jobs:
           && hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.pages-url }}" \
+            --baseURL "${{ steps.deployment.outputs.page_url }}" \
             --destination ../public
 
       - name: Upload artifact
