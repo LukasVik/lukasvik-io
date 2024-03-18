@@ -1,3 +1,10 @@
 baseURL = 'https://lukasvik.io/'
 languageCode = 'en-us'
 title = 'Lukas Vik'
+
+theme = "hugo-story"
+disableKinds = ["taxonomy", "section"]
+
+[Params.social]
+  github = "https://github.com/LukasVik/"
+  linkedin = "https://www.linkedin.com/in/lukas-vik/"
