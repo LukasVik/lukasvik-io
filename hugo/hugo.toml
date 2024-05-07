@@ -43,6 +43,14 @@ modern FPGA projects.
 # Publications
 # ------------------------------------------------------------------------------
 [[Params.publication]]
+
+url = "https://www.linkedin.com/pulse/reliable-cdc-constraints-3-pulses-lukas-vik-31tif/"
+title = "Reliable FPGA CDC constraints #3: Pulses"
+year = 2024
+type = "article"
+
+[[Params.publication]]
+
 url = "https://www.linkedin.com/pulse/reliable-cdc-constraints-2-counters-fifos-lukas-vik-ist5c/"
 title = "Reliable FPGA CDC constraints #2: Counters and FIFOs"
 year = 2024
