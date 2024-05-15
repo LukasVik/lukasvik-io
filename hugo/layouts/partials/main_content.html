@@ -52,6 +52,11 @@
                             <span class="label">Github</span>
                         </a>
                         {{end}}
+                        {{ with .Site.Params.social.youtube }}
+                        <a target="_blank" href="{{.}}" class="icon brands style2 fa-youtube">
+                            <span class="label">YouTube</span>
+                        </a>
+                        {{end}}
                     </p>
 
                     <span class="image fit"><img src="images/intro.webp" alt="" /></span>
