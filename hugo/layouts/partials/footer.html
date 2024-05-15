@@ -20,6 +20,13 @@
                 </a>
               </li>
             {{end}}
+            {{ with .Site.Params.social.youtube }}
+              <li>
+                <a target="_blank" href="{{.}}" class="icon brands style2 fa-youtube">
+                    <span class="label">YouTube</span>
+                </a>
+              </li>
+            {{end}}
         </ul>
 </div>
 </footer>

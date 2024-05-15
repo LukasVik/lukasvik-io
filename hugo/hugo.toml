@@ -9,8 +9,9 @@ theme = "hugo-story"
 disableKinds = ["taxonomy", "section"]
 
 [Params.social]
-github = "https://github.com/LukasVik/"
 linkedin = "https://www.linkedin.com/in/lukas-vik/"
+github = "https://github.com/LukasVik/"
+youtube = "https://www.youtube.com/@lukasvik6182"
 
 # ------------------------------------------------------------------------------
 # Open-source projects
