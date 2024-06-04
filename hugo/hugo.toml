@@ -52,6 +52,13 @@ type = "video tutorial"
 
 [[Params.publication]]
 
+url = "https://www.linkedin.com/pulse/reliable-cdc-constraints-4-build-tool-settings-lukas-vik-yknsc/"
+title = "Reliable FPGA CDC constraints #4: Build tool settings"
+year = 2024
+type = "article"
+
+[[Params.publication]]
+
 url = "https://www.linkedin.com/pulse/reliable-cdc-constraints-3-pulses-lukas-vik-31tif/"
 title = "Reliable FPGA CDC constraints #3: Pulses"
 year = 2024
