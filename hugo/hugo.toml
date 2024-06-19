@@ -45,6 +45,13 @@ modern FPGA projects.
 # ------------------------------------------------------------------------------
 [[Params.publication]]
 
+url = "https://www.youtube.com/watch?v=AA-YJNMIDJw"
+title = "Why is CDC so hard? Presentation at CERN"
+year = 2024
+type = "conference talk"
+
+[[Params.publication]]
+
 url = "https://youtu.be/kt4FGFKl5E0"
 title = "Simulate FPGA design with Vivado simulation libraries"
 year = 2024
