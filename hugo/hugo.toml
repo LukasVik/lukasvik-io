@@ -45,6 +45,13 @@ modern FPGA projects.
 # ------------------------------------------------------------------------------
 [[Params.publication]]
 
+url = "https://www.linkedin.com/pulse/reliable-cdc-constraints-5-asynchronous-fifo-lukas-vik-snlgf"
+title = "Reliable FPGA CDC constraints #5: Asynchronous FIFO"
+year = 2024
+type = "article"
+
+[[Params.publication]]
+
 url = "https://www.youtube.com/watch?v=AA-YJNMIDJw"
 title = "Why is CDC so hard? Presentation at CERN"
 year = 2024
