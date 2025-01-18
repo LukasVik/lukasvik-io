@@ -57,6 +57,11 @@
                             <span class="label">YouTube</span>
                         </a>
                         {{end}}
+                        {{ with .Site.Params.social.telegram }}
+                        <a target="_blank" href="{{.}}" class="icon brands style2 fa-telegram">
+                            <span class="label">Telegram</span>
+                        </a>
+                        {{end}}
                     </p>
 
                     <span class="image fit"><img src="images/intro.webp" alt="" /></span>
