@@ -27,6 +27,13 @@
                 </a>
               </li>
             {{end}}
+            {{ with .Site.Params.social.telegram }}
+              <li>
+                <a target="_blank" href="{{.}}" class="icon brands style2 fa-telegram">
+                    <span class="label">Telegram</span>
+                </a>
+              </li>
+            {{end}}
         </ul>
 </div>
 </footer>
