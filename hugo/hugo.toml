@@ -8,11 +8,33 @@ title = 'Lukas Vik'
 theme = "hugo-story"
 disableKinds = ["taxonomy", "section"]
 
-[Params.social]
-linkedin = "https://www.linkedin.com/in/lukas-vik/"
-github = "https://github.com/LukasVik/"
-youtube = "https://www.youtube.com/@lukasvik89"
-telegram = "https://t.me/lukasvik89"
+# ------------------------------------------------------------------------------
+# Contact links
+# ------------------------------------------------------------------------------
+[[Params.social]]
+name = "Linkedin"
+icon = "brands fa-linkedin"
+link = "https://www.linkedin.com/in/lukas-vik"
+
+[[Params.social]]
+name = "GitHub"
+icon = "brands fa-github"
+link = "https://github.com/LukasVik"
+
+[[Params.social]]
+name = "Email"
+icon = "fa-envelope"
+link = "mailto:lukas.vik.biz@gmail.com"
+
+[[Params.social]]
+name = "Telegram"
+icon = "brands fa-telegram"
+link = "https://t.me/lukasvik89"
+
+[[Params.social]]
+name = "YouTube"
+icon = "brands fa-youtube"
+link = "https://www.youtube.com/@lukasvik89"
 
 # ------------------------------------------------------------------------------
 # Open-source projects
@@ -45,49 +67,42 @@ modern FPGA projects.
 # Publications
 # ------------------------------------------------------------------------------
 [[Params.publication]]
-
 url = "https://www.linkedin.com/pulse/many-ways-mess-up-readyvalid-handshaking-lukas-vik-2mqdf"
 title = "The many ways to mess up ready/valid handshaking"
 year = 2024
 type = "article"
 
 [[Params.publication]]
-
 url = "https://www.linkedin.com/pulse/reliable-cdc-constraints-5-asynchronous-fifo-lukas-vik-snlgf"
 title = "Reliable FPGA CDC constraints #5: Asynchronous FIFO"
 year = 2024
 type = "article"
 
 [[Params.publication]]
-
 url = "https://www.youtube.com/watch?v=AA-YJNMIDJw"
 title = "Why is CDC so hard? Presentation at CERN"
 year = 2024
 type = "conference talk"
 
 [[Params.publication]]
-
 url = "https://youtu.be/kt4FGFKl5E0"
 title = "Simulate FPGA design with Vivado simulation libraries"
 year = 2024
 type = "video tutorial"
 
 [[Params.publication]]
-
 url = "https://www.linkedin.com/pulse/reliable-cdc-constraints-4-build-tool-settings-lukas-vik-yknsc"
 title = "Reliable FPGA CDC constraints #4: Build tool settings"
 year = 2024
 type = "article"
 
 [[Params.publication]]
-
 url = "https://www.linkedin.com/pulse/reliable-cdc-constraints-3-pulses-lukas-vik-31tif"
 title = "Reliable FPGA CDC constraints #3: Pulses"
 year = 2024
 type = "article"
 
 [[Params.publication]]
-
 url = "https://www.linkedin.com/pulse/reliable-cdc-constraints-2-counters-fifos-lukas-vik-ist5c"
 title = "Reliable FPGA CDC constraints #2: Counters and FIFOs"
 year = 2024

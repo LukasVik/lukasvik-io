@@ -17,7 +17,7 @@
                     </p>
 
                     <p>
-                        Alongside my professional work, I am also an active contributor in
+                        Alongside my professional work I am an active contributor in
                         the open-source FPGA community.
                         I am currently the author and maintainer of three FPGA-related
                         open-source projects.
@@ -36,32 +36,15 @@
                         In my free time, I enjoy reading, exercising and being in nature.
                         The exercise of choice depends on the season, but you will usually
                         find me strength training, ice skating or mountain biking.
-                        Since I live in Vienna, the world capital of classical music, I am of course
-                        also an avid concertgoer.
                     </p>
 
-                    <p>
-                        Social media links:
-                        {{ with .Site.Params.social.linkedin }}
-                        <a target="_blank" href="{{.}}" class="icon brands style2 fa-linkedin">
-                            <span class="label">LinkedIn</span>
+                    <p id="contact_links">
+                        Contact links:
+                        {{ range .Site.Params.social }}
+                        <a target="_blank" href="{{ .link }}" class="icon style2 {{ .icon }}">
+                            <span class="label">{{ .name }}</span>
                         </a>
-                        {{end}}
-                        {{ with .Site.Params.social.github }}
-                        <a target="_blank" href="{{.}}" class="icon brands style2 fa-github">
-                            <span class="label">Github</span>
-                        </a>
-                        {{end}}
-                        {{ with .Site.Params.social.youtube }}
-                        <a target="_blank" href="{{.}}" class="icon brands style2 fa-youtube">
-                            <span class="label">YouTube</span>
-                        </a>
-                        {{end}}
-                        {{ with .Site.Params.social.telegram }}
-                        <a target="_blank" href="{{.}}" class="icon brands style2 fa-telegram">
-                            <span class="label">Telegram</span>
-                        </a>
-                        {{end}}
+                        {{ end }}
                     </p>
 
                     <span class="image fit"><img src="images/intro.webp" alt="" /></span>
@@ -100,7 +83,8 @@
                         <p>At Sarcura, 2024&ndash;</p>
                     </header>
                     <p>
-                        Responsible for digital design of a product that automates the manufacturing of CAR-T cells for cancer care.
+                        Responsible for digital design of a product that automates the manufacturing of CAR-T cells for
+                        cancer care.
                         My technology stack includes custom ASIC, FPGA, high-voltage electronics, embedded/PC software.
                     </p>
 
@@ -114,16 +98,16 @@
                         high-speed design.
                         Example projects from these years:
 
-                        <ul style="margin-top: -1em; margin-bottom: 1em;">
-                            <li>Lead developer for an FPGA-based Hi-Fi audio product</li>
-                            <li>Lead developer for an FPGA-based ethernet switch</li>
-                            <li>Lead developer for a video headend device</li>
-                            <li>Lead developer of customer FPGA IP</li>
-                        </ul>
+                    <ul style="margin-top: -1em; margin-bottom: 1em;">
+                        <li>Lead developer for an FPGA-based Hi-Fi audio product</li>
+                        <li>Lead developer for an FPGA-based ethernet switch</li>
+                        <li>Lead developer for a video headend device</li>
+                        <li>Lead developer of customer FPGA IP</li>
+                    </ul>
 
-                        I also did a lot of embedded software and PC GUI development.
-                        And, of course, a lot of other things that come with running a startup:
-                        finance, legal, sales, marketing, etc.
+                    I also did a lot of embedded software and PC GUI development.
+                    And, of course, a lot of other things that come with running a startup:
+                    finance, legal, sales, marketing, etc.
                     </p>
 
                     <header>
@@ -135,10 +119,10 @@
                         FPGA/software development.
                         Projects:
 
-                        <ul style="margin-top: -1em">
-                            <li>Embedded software for the homing system of a next-generation underwater torpedo</li>
-                            <li>FPGA and embedded software for an industrial 3D camera, with focus on signal processing</li>
-                        </ul>
+                    <ul style="margin-top: -1em">
+                        <li>Embedded software for the homing system of a next-generation underwater torpedo</li>
+                        <li>FPGA and embedded software for an industrial 3D camera, with focus on signal processing</li>
+                    </ul>
                     </p>
 
                     <header>
@@ -166,43 +150,6 @@
                         <a target="_blank" href="{{ .url }}">{{ .title }}</a> ({{ .type }}, {{ .year }})
                     </header>
                     {{ end }}
-                </div>
-            </section>
-
-
-            <section>
-                <header>
-                    <h3 id="form">Get in contact</h3>
-                </header>
-                <div class="content">
-                    <script type="text/javascript">
-                        var submitted = false;
-                    </script>
-                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
-                        onload="if(submitted) {window.location='/thankyou';}">
-                    </iframe>
-
-                    <form
-                        action="https://docs.google.com/forms/d/e/1FAIpQLSd_FrUJCPvX14nZCDEjHyx6Qrv57FDDX59XgrllGRKdETBiqg/formResponse"
-                        method="post" target="hidden_iframe" onsubmit="submitted=true;">
-                        <div class="fields">
-                            <div class="field half">
-                                <label for="name">Name</label>
-                                <input type="text" name="entry.2005620554" id="name" value="" />
-                            </div>
-                            <div class="field half">
-                                <label for="email">Email</label>
-                                <input type="email" name="entry.1045781291" id="email" value="" />
-                            </div>
-                            <div class="field">
-                                <label for="message">Message</label>
-                                <textarea name="entry.839337160" id="message" rows="6"></textarea>
-                            </div>
-                        </div>
-                        <ul class="actions">
-                            <li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
-                        </ul>
-                    </form>
                 </div>
             </section>
 
