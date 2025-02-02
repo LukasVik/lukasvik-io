@@ -3,15 +3,16 @@
     <div class="content">
         <h1>Hello, I'm Lukas Vik</h1>
         <p>
-            I am an expert FPGA developer based in Vienna, Austria.
+            I am an expert FPGA developer working as a freelance consultant/contractor out of Vienna, Austria.
             Please find my <a href="#about" class="smooth-scroll-middle">resume</a> below, or visit
             my
-            {{ with .Site.Params.social.linkedin }}<a target="_blank" href="{{.}}">Linkedin</a>{{end}}
+            {{ $link := (index (where site.Params.social "name" "Linkedin") 0).link }}
+            <a target="_blank" href="{{ $link }}">Linkedin</a>
             and
-            {{ with .Site.Params.social.github }}<a target="_blank" href="{{.}}">GitHub</a>{{end}}
+            {{ $link := (index (where site.Params.social "name" "GitHub") 0).link }}
+            <a target="_blank" href="{{ $link }}">GitHub</a>
             pages.
-            To contact me, use Linkedin or the <a href="#form" class="smooth-scroll">form</a> at the 
-            bottom of this page.
+            To contact me, use the <a href="#contact_links" class="smooth-scroll-middle">links below</a>.
         </p>
         <ul class="actions stacked">
             <li><a href="#about" class="button primary large wide smooth-scroll-middle">Read more</a></li>
