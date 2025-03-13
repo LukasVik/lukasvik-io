@@ -67,6 +67,12 @@ modern FPGA projects.
 # Publications
 # ------------------------------------------------------------------------------
 [[Params.publication]]
+url = "https://www.linkedin.com/pulse/io-timing-constraints-fpgaasic-1-source-synchronous-input-lukas-vik-0xslf"
+title = "I/O timing constraints for FPGA/ASIC #1: Source-synchronous input"
+year = 2025
+type = "article"
+
+[[Params.publication]]
 url = "https://www.linkedin.com/pulse/many-ways-mess-up-readyvalid-handshaking-lukas-vik-2mqdf"
 title = "The many ways to mess up ready/valid handshaking"
 year = 2024
