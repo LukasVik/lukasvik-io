@@ -67,6 +67,12 @@ modern FPGA projects.
 # Publications
 # ------------------------------------------------------------------------------
 [[Params.publication]]
+url = "https://www.linkedin.com/pulse/io-timing-constraints-fpgaasic-6-sink-synchronous-output-lukas-vik-yod6f"
+title = "I/O timing constraints for FPGA/ASIC #6: Sink-synchronous output"
+year = 2025
+type = "article"
+
+[[Params.publication]]
 url = "https://www.linkedin.com/pulse/io-timing-constraints-fpgaasic-5-system-synchronous-output-lukas-vik-bv86f"
 title = "I/O timing constraints for FPGA/ASIC #5: System-synchronous output"
 year = 2025
