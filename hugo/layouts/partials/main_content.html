@@ -141,14 +141,18 @@
 
             <section>
                 <header>
-                    <h3>Publications</h3>
+                    <h3 id="publications">Publications</h3>
                 </header>
 
                 <div class="content">
                     {{ range .Site.Params.publication }}
-                    <header>
+                      {{ if ne .url "" }}
+                      <header>
                         <a target="_blank" href="{{ .url }}">{{ .title }}</a> ({{ .type }}, {{ .year }})
-                    </header>
+                      </header>
+                      {{ else }}
+                      <br />
+                      {{ end }}
                     {{ end }}
                 </div>
             </section>
