@@ -41,7 +41,7 @@
                     <p id="contact_links">
                         Contact links:
                         {{ range .Site.Params.social }}
-                        <a target="_blank" href="{{ .link }}" class="icon style2 {{ .icon }}">
+                        <a target="_blank" href="{{ .link }}" title="{{ .name }}" class="icon style2 {{ .icon }}">
                             <span class="label">{{ .name }}</span>
                         </a>
                         {{ end }}

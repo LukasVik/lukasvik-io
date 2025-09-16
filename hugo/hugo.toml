@@ -29,7 +29,7 @@ link = "mailto:lukas.vik.biz@gmail.com"
 [[Params.social]]
 name = "Telegram"
 icon = "brands fa-telegram"
-link = "https://t.me/lukasvik89"
+link = "https://telegram.me/lukasvik89"
 
 [[Params.social]]
 name = "YouTube"
