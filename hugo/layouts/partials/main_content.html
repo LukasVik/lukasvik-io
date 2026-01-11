@@ -53,10 +53,11 @@
                 <div class="content">
                     {{ range .Site.Params.open_source }}
                     <header>
-                        <h3>{{ .name }} (<a target="_blank" href="{{ .website }}">{{ .website }}</a>)</h3>
+                        <h3>{{ .name }}</h3>
                     </header>
                     <p>
 {{ .description }}
+                        Website: <a target="_blank" href="{{ .website }}">{{ .website }}</a>
                     </p>
                     {{ end }}
                 </div>
