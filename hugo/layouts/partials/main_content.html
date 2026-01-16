@@ -20,9 +20,11 @@
                         the open-source FPGA community.
                         I am currently the author and maintainer of three FPGA-related
                         open-source projects.
-                        Please see the
-                        <a href="#contact_links" class="smooth-scroll-middle">GitHub link</a> or the
-                        <a href="#open_source_projects" class="smooth-scroll-middle">projects</a> below for details.
+                        Please see my
+                        {{ $link := (index (where site.Params.social "name" "GitHub") 0).link }}
+                        <a target="_blank" href="{{ $link }}">GitHub</a>
+                        or the
+                        <a href="#open_source_projects" class="smooth-scroll-middle">project list</a> below for details.
                     </p>
 
                     <p>
