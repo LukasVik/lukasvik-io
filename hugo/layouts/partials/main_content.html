@@ -72,74 +72,15 @@
                 </header>
 
                 <div class="content">
+                    {{ range .Site.Params.job }}
                     <header>
-                        <h3>FPGA Engineer for financial trading</h3>
-                        <p>At IMC Trading, 2025&ndash;</p>
+                        <h3>{{ .title }}</h3>
+                        <p>At {{ .company_name }}, {{ .start_year }}&ndash;{{ .end_year }}</p>
                     </header>
                     <p>
-                        Development of custom FPGA-based trading solutions.
+{{ .description | safeHTML }}
                     </p>
-                    
-                    <header>
-                        <h3>FPGA/software development for cell therapy</h3>
-                        <p>At Sarcura, 2024&ndash;2025</p>
-                    </header>
-                    <p>
-                        Responsible for digital design of a product that automates CAR-T cell manufacturing for
-                        cancer care.
-                        I wrote the complete stack of FPGA (VHDL), embedded software (C++) and PC client (Python)
-                        from scratch in six months.
-                        Including a custom TCP link for device configuration, status diagnostics, and
-                        data logging/visualization.
-                    </p>
-
-                    <header>
-                        <h3>Co-founder, FPGA expert</h3>
-                        <p>At Truestream, 2019&ndash;2023</p>
-                    </header>
-                    <p>
-                        An FPGA design startup I founded with some friends.
-                        I worked as an FPGA expert on some very advanced products with bleeding-edge
-                        high-speed design.
-                        Example projects from these years:
-
-                        <ul style="margin-top: -1em; margin-bottom: 1em;">
-                            <li>Lead developer for an FPGA-based ethernet switch</li>
-                            <li>Lead developer for an FPGA-based Hi-Fi audio product</li>
-                            <li>Lead developer for a video headend device</li>
-                            <li>Lead developer of custom FPGA IP</li>
-                        </ul>
-
-                        I also did a lot of embedded software and PC GUI development.
-                        And, of course, a lot of other things that come with running a startup:
-                        finance, legal, sales, marketing, etc.
-                    </p>
-
-                    <header>
-                        <h3>Freelance consultant</h3>
-                        <p>At Blue Steel Engineering, 2017&ndash;2019</p>
-                    </header>
-                    <p>
-                        My one-man consulting company where I provided services in
-                        FPGA/software development.
-                        Projects:
-
-                        <ul style="margin-top: -1em">
-                            <li>Embedded software for the homing system of a next-generation underwater torpedo</li>
-                            <li>FPGA and embedded software for an industrial 3D camera, with focus on signal processing</li>
-                        </ul>
-                    </p>
-
-                    <header>
-                        <h3>FPGA development for self-driving cars</h3>
-                        <p>At Autoliv Electronics (now part of Qualcomm), 2014&ndash;2017</p>
-                    </header>
-                    <p>
-                        My first job after university.
-                        I had a variety of roles and towards the end I was the lead developer.
-                        I mainly developed VHDL cores for image processing, but I also did
-                        team leading, pre-studies, CI, etc.
-                    </p>
+                    {{ end }}
                 </div>
             </section>
 
