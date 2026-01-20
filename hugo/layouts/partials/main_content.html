@@ -75,7 +75,7 @@
                     {{ range .Site.Params.job }}
                     <header>
                         <h3>{{ .title }}</h3>
-                        <p>At {{ .company_name }}, {{ .start_year }}&ndash;{{ .end_year }}</p>
+                        <p>At {{ .company_name }}, {{ .location_city }} ({{ .location_country }}), {{ .start_year }}&ndash;{{ .end_year }}</p>
                     </header>
                     <p>
 {{ .description | safeHTML }}
