@@ -64,6 +64,86 @@ modern FPGA projects.
 """
 
 # ------------------------------------------------------------------------------
+# Professional experience
+# ------------------------------------------------------------------------------
+[[Params.job]]
+title = "FPGA Engineer for financial trading"
+company_name = "IMC Trading"
+start_year = "2025"
+end_year = ""
+location_city = "Sydney"
+location_country = "Australia"
+description = """
+Development of custom FPGA-based trading solutions.
+"""
+
+[[Params.job]]
+title = "FPGA/software development for cell therapy"
+company_name = "Sarcura"
+start_year = "2024"
+end_year = "2025"
+location_city = "Vienna"
+location_country = "Austria"
+description = """
+Responsible for digital design of a product that automates CAR-T cell manufacturing for cancer care.
+I wrote the complete stack of FPGA (VHDL), embedded software (C++) and PC client (Python) from scratch in six months.
+Including a custom TCP link for device configuration, status diagnostics, and data logging/visualization.
+"""
+
+[[Params.job]]
+title = "Co-founder, FPGA expert"
+company_name = "Truestream"
+start_year = "2019"
+end_year = "2023"
+location_city = "Linköping"
+location_country = "Sweden"
+description = """
+An FPGA design startup I founded with some friends.
+I worked as an FPGA expert on some very advanced products with bleeding-edge high-speed design.
+Example projects from these years:
+
+<ul style="margin-top: -1em; margin-bottom: 1em;">
+    <li>Lead developer for an FPGA-based ethernet switch</li>
+    <li>Lead developer for an FPGA-based Hi-Fi audio product</li>
+    <li>Lead developer for a video headend device</li>
+    <li>Lead developer of custom FPGA IP</li>
+</ul>
+
+I also did a lot of embedded software and PC GUI development.
+And, of course, a lot of other things that come with running a startup: finance, legal, sales, marketing, etc.
+"""
+
+[[Params.job]]
+title = "Freelance consultant"
+company_name = "Blue Steel Engineering"
+start_year = "2017"
+end_year = "2019"
+location_city = "Linköping"
+location_country = "Sweden"
+description = """
+My one-man consulting company where I provided services in FPGA/software development.
+Projects:
+
+<ul style="margin-top: -1em">
+    <li>Embedded software for the homing system of a next-generation underwater torpedo</li>
+    <li>FPGA and embedded software for an industrial 3D camera, with focus on signal processing</li>
+</ul>
+"""
+
+[[Params.job]]
+title = "FPGA development for self-driving cars"
+company_name = "Autoliv Electronics"
+start_year = "2014"
+end_year = "2017"
+location_city = "Linköping"
+location_country = "Sweden"
+description = """
+My first job after university.
+I had a variety of roles and towards the end I was the lead developer.
+I mainly developed VHDL cores for image processing, but I also did team leading, pre-studies, CI, etc.
+"""
+
+# ------------------------------------------------------------------------------
 # Publications
 # ------------------------------------------------------------------------------
 [[Params.publication]]
