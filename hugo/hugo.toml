@@ -67,18 +67,18 @@ modern FPGA projects.
 # Professional experience
 # ------------------------------------------------------------------------------
 [[Params.job]]
-title = "FPGA Engineer for financial trading"
+title = "FPGA Engineer"
 company_name = "IMC Trading"
 start_year = "2025"
 end_year = ""
 location_city = "Sydney"
 location_country = "Australia"
 description = """
-Development of custom FPGA-based trading solutions.
+Developing custom FPGA-based financial trading solutions.
 """
 
 [[Params.job]]
-title = "FPGA/software development for cell therapy"
+title = "Senior Staff Engineer in Digital Design"
 company_name = "Sarcura"
 start_year = "2024"
 end_year = "2025"
@@ -114,7 +114,7 @@ And, of course, a lot of other things that come with running a startup: finance,
 """
 
 [[Params.job]]
-title = "Freelance consultant"
+title = "Freelance Consultant"
 company_name = "Blue Steel Engineering"
 start_year = "2017"
 end_year = "2019"
@@ -131,16 +131,15 @@ Projects:
 """
 
 [[Params.job]]
-title = "FPGA development for self-driving cars"
+title = "FPGA Developer"
 company_name = "Autoliv Electronics"
 start_year = "2014"
 end_year = "2017"
 location_city = "Linköping"
 location_country = "Sweden"
 description = """
-My first job after university.
-I had a variety of roles and towards the end I was the lead developer.
-I mainly developed VHDL cores for image processing, but I also did team leading, pre-studies, CI, etc.
+Developing an FPGA-based image processing system for self-driving cars.
+Apart from develpoment, I did team leading, pre-studies, CI, etc.
 """
 
 # ------------------------------------------------------------------------------
@@ -176,7 +175,7 @@ title = "Reliable FPGA CDC constraints #1: The simple single-bit level CDC"
 year = 2024
 type = "article"
 
-# Separator
+# Rendered as separator
 [[Params.publication]]
 url = ""
 
@@ -216,7 +215,7 @@ title = "I/O timing constraints for FPGA/ASIC #1: Source-synchronous input"
 year = 2025
 type = "article"
 
-# Separator
+# Rendered as separator
 [[Params.publication]]
 url = ""
 
@@ -238,7 +237,7 @@ title = "Simulate FPGA design with Vivado simulation libraries"
 year = 2024
 type = "video tutorial"
 
-# Separator
+# Rendered as separator
 [[Params.publication]]
 url = ""
 
