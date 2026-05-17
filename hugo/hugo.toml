@@ -74,7 +74,7 @@ end_year = ""
 location_city = "Sydney"
 location_country = "Australia"
 description = """
-Developing custom FPGA-based financial trading solutions.
+Developing custom FPGA solutions for financial trading.
 """
 
 [[Params.job]]
